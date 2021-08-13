@@ -1,0 +1,22 @@
+.about-plus {
+  font-size: 36px;
+  color: #777;
+  font-weight: 200;
+  margin-top: -6px;
+}
+
+.about-name {
+  font-family: 'Roboto Condensed';
+  font-size: 48px;
+  font-weight: bold;
+  color: #2C8FDB;
+  border-top: 2px solid #888;
+  margin-top: 10px;
+  margin-bottom: -15px;
+}
+
+.about-subtitle {
+  font-size: 36px;
+  font-weight: 400;
+  color: #000;
+}

@@ -1,0 +1,9 @@
+.nav-menu-item {
+  font-family: 'Roboto Condensed';
+  cursor: pointer;
+}
+
+.nav-menu-item-selected {
+  font-weight: bold;
+  color: #2C8FDB;
+};
