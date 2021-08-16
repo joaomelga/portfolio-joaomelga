@@ -1,0 +1,189 @@
+.shadow-bordered {
+  position: relative;
+  border: 2px solid #2C8FDB;
+  background-color: #FFF;
+}
+
+  .shadow-bordered:after {
+    content: " ";
+    position: absolute;
+    z-index: -1;
+    top: 10px;
+    left: 10px;
+    right: -10px;
+    bottom: -10px;
+    border: 2px dashed #999;
+  }
+
+.squared-box {
+  width: 100%;
+  padding-bottom: 100%;
+}
+
+.filters-container {
+  position: relative;
+  z-index: 10;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+  .filters-container .filters-breadcrumb {
+    margin-left: 10px;
+    z-index: -2;
+    white-space: nowrap; 
+    color: #999;
+    font-size: 14px;
+    font-weight: medium;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+  }
+
+  .filters-container .filters-button {
+    cursor: pointer;
+    position: relative;
+    border-color: #333;
+    border-radius: 5px;
+
+    font-family: "Roboto";
+
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+    .filters-container .filters-button span {
+      font-weight: normal;
+      font-size: 18px;
+      margin-left: 10px;
+    }
+
+    .filters-container .filters-button:after {
+      border-radius: 5px;
+    }
+
+  .filters-container .filters-dialog {
+    border: 2px dashed #999;
+    border-radius: 5px;
+    z-index: -1;
+    background-color: #FFF;
+
+    transform: scaleY(0) scaleX(0);    
+    transform-origin: top left;
+    transition: transform 0.26s ease;
+  
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    min-width: 250px;
+  }
+
+  .filters-container .filters-dialog-opened {
+    transform: scaleY(1) scaleX(1);    
+  }
+
+    .filters-dialog .filters-list {
+      padding: 20px;
+      margin-top: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-start;
+    }
+
+      .filters-list h3 {
+        margin: 0;
+        margin-top: 10px;
+        font-size: 18px;
+        font-weight: bold;
+        color: #888
+      }
+
+      .filters-list .filter-option {
+        all: unset;
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        align-items: center;
+        text-align: left;
+        cursor: pointer;
+
+        padding: 6px;
+        margin: 0;
+      }
+
+        .filter-option:hover {
+          background-color: #f1f1f1;
+        }
+
+        .filter-option span {
+          font-size: 16px;
+          font-weight: 200;
+          color: #333;
+        }
+
+.field-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+  .field-button span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+  }
+
+.project-list-container {
+  position: relative;
+}
+
+.project-card-img-container {
+  padding: 5px;
+  border-color: #333;
+}
+
+.project-card-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  margin-left: 30px;
+}
+
+  .project-card-text h1 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+  }
+
+  .project-card-text p {
+    margin: 0;
+    margin-top: 5px;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 200;
+  }
+
+  .project-card-text span {
+    font-size: 16px;
+    font-weight: medium;
+  }

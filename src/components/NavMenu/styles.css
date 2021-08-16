@@ -1,6 +1,7 @@
 .nav-menu-item {
   font-family: 'Roboto Condensed';
   cursor: pointer;
+  text-align: right;
 }
 
 .nav-menu-item-selected {

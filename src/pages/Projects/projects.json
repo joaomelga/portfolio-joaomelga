@@ -1,0 +1,178 @@
+{
+  "fields": {
+    "work": [
+      "Electronics & Embedded Systems",
+      "Full-stack Web/App Development",
+      "Design Thinking & UX Design",
+      "Agile Management",
+      "Mechanics & Machining",
+      "Layout & Space planning",
+      "Electrical Installations",
+      "Teaching"
+    ],
+    "fun": [
+      "Vehicles",
+      "Devices",
+      "Furniture"
+    ]
+  },
+  "data": [
+    {
+      "title": "Aruá",
+      "subtitle": "STM32 microcontolled system to monitor and control fish ponds water quality.",
+      "links": [],
+      "img": "arua001.jpg",
+      "date": "Mar - Jun 2021",
+      "fields": ["Electronics & Embedded Systems"]
+    },
+    {
+      "title": "Moisturemeter P001",
+      "subtitle": "Capacitive and low cost moisture meter microcontrolled by an ESP8266 built especially to monitor gardens.",
+      "links": [],
+      "img": "moisturemeter001.jpg",
+      "date": "Jun - Dec 2018",
+      "fields": ["Electronics & Embedded Systems"]
+    },
+    {
+      "title": "Cutia",
+      "subtitle": "Semi-autonomous ATMEGA32 controlled quadcopter made to recover the soil and reforest Amazon Rainforest devastated areas.",
+      "links": [],
+      "img": "cutia001.jpg",
+      "date": "Jan - Dec 2016",
+      "fields": ["Electronics & Embedded Systems"]
+    },
+    {
+      "title": "SIMBA",
+      "subtitle": "A embedded system capable to supervise efficiency and quality in the juice production process and stablish connection between a balance and a filling machine.",
+      "links": [],
+      "img": "simba001.jpg",
+      "date": "Mar 2018 - Jun 2019",
+      "fields": ["Electronics & Embedded Systems"]
+    },
+    {
+      "title": "DHT11 Api to STM32",
+      "subtitle": "A DHT11 API adaptable for STM32FXXX MCUs and a DEMO application developed under the stack CubeMX + SW4STM32 + HAL.",
+      "links": ["https://github.com/joaomelga/STM32Fxxx-DHT11-API"],
+      "img": "dhtToSTM001.jpg",
+      "date": "Feb - Mar 2021",
+      "fields": ["Electronics & Embedded Systems"]
+    },
+    {
+      "title": "STM32 Low-Power Modes",
+      "subtitle": "A repository created to give an overview and an example application of the low-power modes of STM32F1 microcontroller family.",
+      "links": ["https://github.com/joaomelga/STM32F103xx-LowPowerModes"],
+      "img": "STM32LowPowerModes001.jpg",
+      "date": "Mar - Apr 2021",
+      "fields": ["Electronics & Embedded Systems"]
+    },
+    {
+      "title": "Filling Machine 2.0",
+      "subtitle": "A ESP8266 microcontrolled system responsible for increase the pulp packs per hour productivity by 300% and for drastically decrease the operators effort.",
+      "links": [],
+      "img": "fillingMachine001.jpg",
+      "date": "Mar 2018 - Dec 2019",
+      "fields": ["Electronics & Embedded Systems"]
+    },
+    {
+      "title": "GoogleSheets Api to ESP8266",
+      "subtitle": "Controls an ESP8266 microcontroller to receive comma separated data via UART and send it to Google Sheets as a row with multiple columns.",
+      "links": [],
+      "img": "sheetsESP001.jpg",
+      "date": "Feb - Apr 2019",
+      "fields": ["Electronics & Embedded Systems"]
+    },
+    {
+      "title": "Locall Platform",
+      "subtitle": "The digital and non-profit platform to help small scale farmers, producers and service providers to promote consistent and endogenous local development by their own.",
+      "links": [],
+      "img": "locall001.png",
+      "date": "Mar 2020 - Now",
+      "fields": ["Full-stack Web/App Development"]
+    },
+    {
+      "title": "Ansof Logistics 2.0",
+      "subtitle": "A Domain-Driven Design oriented platform (front Web + back PHP) to calculate best delivering routes according to vehicles capability, clients availability and so on.",
+      "links": [],
+      "img": "ansofLogistics001.png",
+      "date": "Feb - Oct 2019",
+      "fields": ["Full-stack Web/App Development"]
+    },
+    {
+      "title": "MegaPool",
+      "subtitle": "A Domain-Driven Design oriented platform (front Web + back PHP) to calculate best delivering routes according to vehicles capability, clients availability and so on.",
+      "links": ["https://www.facebook.com/megapoolagro/"],
+      "img": "megapool001.jpg",
+      "date": "Jun - Dec 2019",
+      "fields": ["Full-stack Web/App Development"]
+    },
+    {
+      "title": "Smart M2M",
+      "subtitle": "A product composed by a GSM/GPRS/3G datalogger and a web platform to display devices data in dashboards with charts, tables, gauges, alerts, etc.",
+      "links": ["https://carmeltecnologia.com.br/"],
+      "img": "smartM2M001.jpg",
+      "date": "Jan - Jun 2017",
+      "fields": ["Full-stack Web/App Development"]
+    },
+    {
+      "title": "GE EasyReceiving",
+      "subtitle": "A solution to the locomotives pieces receiving process at GE Transportation, designed during two weeks of Design Sprint guided by General Electrics designers, engineers and agile experts.",
+      "links": [],
+      "img": "easyReceiving001.jpg",
+      "date": "Ago - Dec 2018",
+      "fields": ["Full-stack Web/App Development", "Design Thinking & UX Design"]
+    },
+    {
+      "title": "Sicoob Connection",
+      "subtitle": "A solution to connect people and promote financial justice designed during a Design Sprint guided by Sicoob Credit Coop. and Raízen UX designers.",
+      "links": [],
+      "img": "sicoobConnection001.jpg",
+      "date": "Nov 2018",
+      "fields": ["Design Thinking & UX Design"]
+    },
+    {
+      "title": "Reversing Key Restoration"
+    },
+    {
+      "title": "PlayLixo"
+    },
+    {
+      "title": "Toolrooom Restoration"
+    },
+    {
+      "title": "Juice Factory Study"
+    },
+    {
+      "title": "Scrum Training"
+    },
+    {
+      "title": "Bart, The White Beetle"
+    },
+    {
+      "title": "Moped 1st"
+    },
+    {
+      "title": "Car Driving Simulator V3"
+    },
+    {
+      "title": "Tension Source from Scrap"
+    },
+    {
+      "title": "Automato (Garden Automation)"
+    },
+    {
+      "title": "3D Printer"
+    },
+    {
+      "title": "CPE Sofa"
+    },
+    {
+      "title": "Rebecka's Shelf"
+    },
+    {
+      "title": "Dad's Bed"
+    },
+    {
+      "title": "Hurried Luster"
+    }
+  ]
+}

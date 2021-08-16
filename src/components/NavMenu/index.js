@@ -19,23 +19,34 @@ export default function NavMenu() {
       >
         <Grid
           className={`nav-menu-item ${location.pathname === '/' ? 'nav-menu-item-selected' : ''}`}
-          xs="1"
+          xs="4"
+          sm="3"
+          md="2"
+          lg="1"
           item
           onClick={() => history.push('/')}
         >
           About
         </Grid>
+
         <Grid
           className={`nav-menu-item ${location.pathname === '/contact' ? 'nav-menu-item-selected' : ''}`}
-          xs="1"
+          xs="4"
+          sm="3"
+          md="2"
+          lg="1"
           item
           onClick={() => history.push('/contact')}
         >
           Contact
         </Grid>
+
         <Grid
           className={`nav-menu-item ${location.pathname === '/projects' ? 'nav-menu-item-selected' : ''}`}
-          xs="1"
+          xs="4"
+          sm="3"
+          md="2"
+          lg="1"
           item
           onClick={() => history.push('/projects')}
         >
