@@ -31,7 +31,6 @@ export default function About() {
             alignItems="flex-start"
             style={{ zIndex: 10 }}
           >
-            <div className="about-plus">+Agile</div>
             <div className="about-plus">+Design</div>
             <div className="about-plus">+Creativity</div>
             <div className="about-plus">+Programming</div>
