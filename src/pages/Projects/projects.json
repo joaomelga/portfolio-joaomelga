@@ -4,16 +4,14 @@
       "Electronics & Embedded Systems",
       "Full-stack Web/App Development",
       "Design Thinking & UX Design",
-      "Agile Management",
       "Mechanics & Machining",
       "Layout & Space planning",
       "Electrical Installations",
       "Teaching"
     ],
     "fun": [
-      "Vehicles",
-      "Devices",
-      "Furniture"
+      "Vehicles Restoration",
+      "Woodwork & Furniture"
     ]
   },
   "data": [
@@ -130,49 +128,75 @@
       "fields": ["Design Thinking & UX Design"]
     },
     {
-      "title": "Reversing Key Restoration"
+      "title": "Reversing Key Restoration",
+      "img": "reverseKey001.jpg",
+      "fields": ["Electrical Installations"]
     },
     {
-      "title": "PlayLixo"
+      "title": "PlayLixo",
+      "img": "playLixo001.jpg",
+      "fields": ["Mechanics & Machining"]
     },
     {
-      "title": "Toolrooom Restoration"
+      "title": "Toolrooom Restoration",
+      "img": "toolroom001.jpg",
+      "fields": ["Layout & Space planning"]
     },
     {
-      "title": "Juice Factory Study"
+      "title": "Juice Factory Layout Study",
+      "img": "juiceFactoryLayout001.jpg",
+      "fields": ["Layout & Space planning"]
     },
     {
-      "title": "Scrum Training"
+      "title": "Scrum Training",
+      "img": "scrumTraining001.jpg",
+      "fields": ["Teaching"]
     },
     {
-      "title": "Bart, The White Beetle"
+      "title": "Bart, The White Beetle",
+      "img": "bart001.jpg",
+      "fields": ["Vehicles Restoration"]
     },
     {
-      "title": "Moped 1st"
+      "title": "Moped 1st",
+      "img": "moped001.jpg",
+      "fields": ["Vehicles Restoration"]
     },
     {
-      "title": "Car Driving Simulator V3"
+      "title": "Car Driving Simulator V3",
+      "img": "simulator001.jpeg",
+      "fields": ["Electronics & Embedded Systems", "Mechanics & Machining"]
     },
     {
-      "title": "Tension Source from Scrap"
+      "title": "Tension Source from Scrap",
+      "fields": ["Electronics & Embedded Systems"]
     },
     {
-      "title": "Automato (Garden Automation)"
+      "title": "Automato (Garden Automation)",
+      "fields": ["Electronics & Embedded Systems"]
     },
     {
-      "title": "3D Printer"
+      "title": "3D Printer",
+      "fields": ["Electronics & Embedded Systems", "Mechanics & Machining"]
     },
     {
-      "title": "CPE Sofa"
+      "title": "CPE's Sofa",
+      "img": "cpeSofa001.jpg",
+      "fields": ["Woodwork & Furniture"]
     },
     {
-      "title": "Rebecka's Shelf"
+      "title": "Rebecka's Shelf",
+      "img": "rebeckasShelf001.jpg",
+      "fields": ["Woodwork & Furniture"]
     },
     {
-      "title": "Dad's Bed"
+      "title": "Dad's Bed",
+      "fields": ["Woodwork & Furniture"]
     },
     {
-      "title": "Hurried Luster"
+      "title": "Hurried Luster",
+      "img": "hurriedLuster001.jpg",
+      "fields": ["Woodwork & Furniture"]
     }
   ]
 }
