@@ -5,7 +5,7 @@ import {
 import { FilterList, Close, ChevronRight } from '@material-ui/icons';
 
 import { NavMenu } from '../../components';
-import cuttedHeadImg from '../../assets/images/cutted-head.jpg';
+import deskTopViewImg from '../../assets/images/desk-topview.jpg';
 import hobbies from './hobbies.json';
 import './styles.css';
 
@@ -60,7 +60,7 @@ export default function Hobbies() {
         >
           <Grid md="7" item>
             <Hidden smDown>
-              <img width="90%" src={cuttedHeadImg} alt="Cutted Head" />
+              <img width="90%" src={deskTopViewImg} alt="Cutted Head" style={{ marginTop: 50 }} />
             </Hidden>
           </Grid>
 

@@ -23,8 +23,9 @@ export default function NavMenu() {
   }, []);
 
   return (
-    <Container
+    <Box
       style={{
+        width: '100%',
         paddingTop: 30,
         paddingBottom: 30,
         position: 'fixed',
@@ -78,6 +79,6 @@ export default function NavMenu() {
           </Grid>
         </Grid>
       </Grid>
-    </Container>
+    </Box>
   );
 }

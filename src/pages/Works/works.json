@@ -9,6 +9,15 @@
   ],
   "data": [
     {
+      "title": "STM32 Low-Power Modes",
+      "subtitle": "A repository created to give an overview and an example application of the low-power modes of STM32F1 microcontroller family.",
+      "links": ["https://github.com/joaomelga/STM32F103xx-LowPowerModes"],
+      "img": "STM32LowPowerModes001.jpg",
+      "date": "Mar - Apr 2021",
+      "location": "Manaus, AM",
+      "fields": ["Embedded Systems"]
+    },
+    {
       "title": "Aruá",
       "subtitle": "STM32 microcontolled system to monitor and control fish ponds water quality.",
       "links": [],
@@ -18,11 +27,47 @@
       "fields": ["Embedded Systems"]
     },
     {
+      "title": "DHT11 Api to STM32",
+      "subtitle": "A DHT11 API adaptable for STM32FXXX MCUs and a DEMO application developed under the stack CubeMX + SW4STM32 + HAL.",
+      "links": ["https://github.com/joaomelga/STM32Fxxx-DHT11-API"],
+      "img": "dhtToSTM001.jpg",
+      "date": "Feb - Mar 2021",
+      "location": "Manaus, AM",
+      "fields": ["Embedded Systems"]
+    },
+    {
+      "title": "GoogleSheets Api to ESP8266",
+      "subtitle": "Controls an ESP8266 microcontroller to receive comma separated data via UART and send it to Google Sheets as a row with multiple columns.",
+      "links": [],
+      "img": "sheetsESP001.jpg",
+      "date": "Feb - Apr 2019",
+      "location": "Belo Horizonte, MG",
+      "fields": ["Embedded Systems"]
+    },
+    {
       "title": "Moisturemeter P001",
       "subtitle": "Capacitive and low cost moisture meter microcontrolled by an ESP8266 built especially to monitor gardens.",
       "links": [],
       "img": "moisturemeter001.jpg",
       "date": "Jun - Dec 2018",
+      "location": "Belo Horizonte, MG",
+      "fields": ["Embedded Systems"]
+    },
+    {
+      "title": "Filling Machine 2.0",
+      "subtitle": "A ESP8266 microcontrolled system responsible for increase the pulp packs per hour productivity by 300% and for drastically decrease the operators effort.",
+      "links": [],
+      "img": "fillingMachine001.jpg",
+      "date": "Mar 2018 - Dec 2019",
+      "location": "Belo Horizonte, MG",
+      "fields": ["Embedded Systems"]
+    },
+    {
+      "title": "SIMBA",
+      "subtitle": "A embedded system capable to supervise efficiency and quality in the juice production process and stablish connection between a balance and a filling machine.",
+      "links": [],
+      "img": "simba001.jpg",
+      "date": "Mar 2018 - Jun 2019",
       "location": "Belo Horizonte, MG",
       "fields": ["Embedded Systems"]
     },
@@ -36,49 +81,13 @@
       "fields": ["Embedded Systems"]
     },
     {
-      "title": "SIMBA",
-      "subtitle": "A embedded system capable to supervise efficiency and quality in the juice production process and stablish connection between a balance and a filling machine.",
+      "title": "My Personal Portfolio",
+      "subtitle": "Developed with React and Material UI to expose a little about me, my work experiences and my hobbies.",
       "links": [],
-      "img": "simba001.jpg",
-      "date": "Mar 2018 - Jun 2019",
-      "location": "Belo Horizonte, MG",
-      "fields": ["Embedded Systems"]
-    },
-    {
-      "title": "DHT11 Api to STM32",
-      "subtitle": "A DHT11 API adaptable for STM32FXXX MCUs and a DEMO application developed under the stack CubeMX + SW4STM32 + HAL.",
-      "links": ["https://github.com/joaomelga/STM32Fxxx-DHT11-API"],
-      "img": "dhtToSTM001.jpg",
-      "date": "Feb - Mar 2021",
+      "img": "portfolio001.jpg",
+      "date": "Aug 2021",
       "location": "Manaus, AM",
-      "fields": ["Embedded Systems"]
-    },
-    {
-      "title": "STM32 Low-Power Modes",
-      "subtitle": "A repository created to give an overview and an example application of the low-power modes of STM32F1 microcontroller family.",
-      "links": ["https://github.com/joaomelga/STM32F103xx-LowPowerModes"],
-      "img": "STM32LowPowerModes001.jpg",
-      "date": "Mar - Apr 2021",
-      "location": "Manaus, AM",
-      "fields": ["Embedded Systems"]
-    },
-    {
-      "title": "Filling Machine 2.0",
-      "subtitle": "A ESP8266 microcontrolled system responsible for increase the pulp packs per hour productivity by 300% and for drastically decrease the operators effort.",
-      "links": [],
-      "img": "fillingMachine001.jpg",
-      "date": "Mar 2018 - Dec 2019",
-      "location": "Belo Horizonte, MG",
-      "fields": ["Embedded Systems"]
-    },
-    {
-      "title": "GoogleSheets Api to ESP8266",
-      "subtitle": "Controls an ESP8266 microcontroller to receive comma separated data via UART and send it to Google Sheets as a row with multiple columns.",
-      "links": [],
-      "img": "sheetsESP001.jpg",
-      "date": "Feb - Apr 2019",
-      "location": "Belo Horizonte, MG",
-      "fields": ["Embedded Systems"]
+      "fields": ["Full-stack Apps Development", "UX & Design Thinking"]
     },
     {
       "title": "Locall Platform",
@@ -117,15 +126,6 @@
       "fields": ["Full-stack Apps Development"]
     },
     {
-      "title": "GE EasyReceiving",
-      "subtitle": "A solution to the locomotives pieces receiving process at GE Transportation, designed during two weeks of Design Sprint guided by General Electrics designers, engineers and agile experts.",
-      "links": [],
-      "img": "easyReceiving001.jpg",
-      "date": "Ago - Dec 2018",
-      "location": "Contagem, MG",
-      "fields": ["Full-stack Apps Development", "UX & Design Thinking"]
-    },
-    {
       "title": "Sicoob Connection",
       "subtitle": "A solution to connect people and promote financial justice designed during a Design Sprint guided by Sicoob Credit Coop. and Raízen UX designers.",
       "links": [],
@@ -133,6 +133,15 @@
       "date": "Nov 2018",
       "location": "Belo Horizonte, MG",
       "fields": ["UX & Design Thinking"]
+    },
+    {
+      "title": "GE EasyReceiving",
+      "subtitle": "A solution to the locomotives pieces receiving process at GE Transportation, designed during two weeks of Design Sprint guided by General Electrics designers, engineers and agile experts.",
+      "links": [],
+      "img": "easyReceiving001.jpg",
+      "date": "Ago - Dec 2018",
+      "location": "Contagem, MG",
+      "fields": ["Full-stack Apps Development", "UX & Design Thinking"]
     },
     {
       "title": "Reversing Key Restoration",

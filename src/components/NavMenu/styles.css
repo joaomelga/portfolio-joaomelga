@@ -1,6 +1,8 @@
 .nav-menu-item {
-  font-family: 'Roboto Condensed';
   cursor: pointer;
+  font-family: 'Roboto Condensed';
+  font-size: 18px;
+  font-weight: normal;
 }
 
 .nav-menu-item-selected {

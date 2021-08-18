@@ -170,20 +170,21 @@
 
   .work-card-text h1 {
     margin: 0;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bold;
     color: #333;
+    text-align: left;
   }
 
   .work-card-text p {
     margin: 0;
     margin-top: 5px;
     text-align: justify;
-    font-size: 13px;
+    font-size: 15px;
     font-weight: 200;
   }
 
   .work-card-text span {
-    font-size: 13px;
+    font-size: 14px;
     font-weight: medium;
   }
