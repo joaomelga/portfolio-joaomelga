@@ -69,11 +69,11 @@ export default function About() {
                 <span>joaolucasfm@gmail.com</span>
 
                 <Grid style={{ paddingTop: 10 }}>
-                  <a href="https://www.linkedin.com/in/joao-melga/">
+                  <a href="https://www.linkedin.com/in/joao-melga/" target="_blank" rel="noreferrer">
                     <LinkedIn color="inherit" style={{ color: '#555' }} />
                   </a>
 
-                  <a href="https://t.me/joaomelga">
+                  <a href="https://t.me/joaomelga" target="_blank" rel="noreferrer">
                     <Telegram color="inherit" style={{ color: '#555' }} />
                   </a>
                 </Grid>
