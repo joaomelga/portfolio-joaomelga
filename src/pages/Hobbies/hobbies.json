@@ -1,0 +1,99 @@
+{
+  "fields": [
+    "Electronic Toys",
+    "Layout & Space Planning",
+    "Vehicles Restoration",
+    "Woodwork & Furniture",
+    "Legos"
+  ],
+  "data": [
+    {
+      "title": "Farm Toolrooom Restoration",
+      "date": "Oct 2020",
+      "subtitle": "A complete project, from modeling to execution, to restore my family's farm toolroom. I've proposed some solutions after talk with the workers and my family trying to apply Design Thinking principles.",
+      "location": "Rio Preto da Eva, AM",
+      "img": "toolroom001.jpg",
+      "fields": ["Layout & Space Planning"]
+    },
+    {
+      "title": "Juice Factory Layout Study",
+      "date": "Jun 2019",
+      "subtitle": "After months observing some problems with the factory's layout, me and other two workmates decided to use Design Thinking principles to build a set of proposition to solve our complaints.",
+      "location": "Belo Horizonte, MG",
+      "img": "juiceFactoryLayout001.jpg",
+      "fields": ["Layout & Space Planning"]
+    },
+    {
+      "title": "Bart, The White Beetle",
+      "date": "Sep 2019 - Now",
+      "subtitle": "This old little boy, rescued by me and my father in the interior of Minas Gerais' state, earned us a lot of stories. In all of them, we got really dirty.",
+      "location": "Belo Horizonte, MG",
+      "img": "bart001.jpg",
+      "fields": ["Vehicles Restoration"]
+    },
+    {
+      "title": "Moped 1st",
+      "date": "Feb 2019 - Now",
+      "subtitle": "It was my first vehicle and the first combustion engine that I learned to fix.",
+      "location": "Belo Horizonte, MG",
+      "img": "moped001.jpg",
+      "fields": ["Vehicles Restoration"]
+    },
+    {
+      "title": "Car Driving Simulator V3",
+      "date": "Mar 2017",
+      "subtitle": "A cockpit controlled by an ATMEGA32 made by wood, junkyard pieces and bikes mechanisms to simulate the experiences of driving trucks and racing cars.",
+      "location": "Barroso, MG",
+      "img": "simulator001.jpeg",
+      "fields": ["Electronic Toys"]
+    },
+    {
+      "title": "Tension Source from Scrap",
+      "date": "Oct 2014",
+      "subtitle": "One of my first homemade experiments. I printed some tension source circuits with those PCB printing kits and put them into an old car radio.",
+      "location": "Manaus, AM",
+      "img": "",
+      "fields": ["Electronic Toys"]
+    },
+    {
+      "title": "3D Printer",
+      "subtitle": "I've bought an old and inoperative 3D printer for a bargain and restored it. Currently, I print my prototype's mechanical pieces and characters through this machine.",
+      "img": "",
+      "location": "Manaus, AM",
+      "date": "Sep 2020 - Now",
+      "fields": ["Electronic Toys"]
+    },
+    {
+      "title": "CPE's Sofa",
+      "subtitle": "I'm searching images and writing a good text to this project...",
+      "img": "cpeSofa001.jpg",
+      "location": "Belo Horizonte, MG",
+      "date": "Jun 2018",
+      "fields": ["Woodwork & Furniture"]
+    },
+    {
+      "title": "Rebecka's Shelf",
+      "subtitle": "I'm searching images and writing a good text to this project...",
+      "img": "rebeckasShelf001.jpg",
+      "location": "Sete Lagoas, MG",
+      "date": "Nov 2019",
+      "fields": ["Woodwork & Furniture"]
+    },
+    {
+      "title": "Dad's Bed",
+      "subtitle": "I'm searching images and writing a good text to this project...",
+      "img": "",
+      "location": "Belo Horizonte, MG",
+      "date": "Sep 2017",
+      "fields": ["Woodwork & Furniture"]
+    },
+    {
+      "title": "Hurried Luster",
+      "subtitle": "I'm searching images and writing a good text to this project...",
+      "img": "hurriedLuster001.jpg",
+      "location": "Belo Horizonte, MG",
+      "date": "Sep 2017",
+      "fields": ["Woodwork & Furniture"]
+    }
+  ]
+}

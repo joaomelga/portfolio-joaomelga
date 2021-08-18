@@ -1,6 +1,6 @@
-.shadow-bordered {
+.hobbies-page-container .shadow-bordered {
   position: relative;
-  border: 2px solid #2C8FDB;
+  border: 2px solid #D53AE8;
   background-color: #FFF;
 }
 
@@ -150,16 +150,15 @@
     font-size: 15px;
   }
 
-.project-list-container {
+.hobbies-list-container {
   position: relative;
 }
 
-.project-card-img-container {
-  padding: 5px;
-  border-color: #333;
+.hobby-card-img-container {
+  padding: 3px 3px 0 3px;
 }
 
-.project-card-text {
+.hobby-card-text {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -168,22 +167,22 @@
   margin-left: 30px;
 }
 
-  .project-card-text h1 {
+  .hobby-card-text h1 {
     margin: 0;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: bold;
     color: #333;
   }
 
-  .project-card-text p {
+  .hobby-card-text p {
     margin: 0;
     margin-top: 5px;
-    text-align: left;
-    font-size: 14px;
+    text-align: justify;
+    font-size: 13px;
     font-weight: 200;
   }
 
-  .project-card-text span {
-    font-size: 16px;
+  .hobby-card-text span {
+    font-size: 13px;
     font-weight: medium;
   }

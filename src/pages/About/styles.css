@@ -1,5 +1,5 @@
 .about-plus {
-  font-size: 36px;
+  font-size: 30px;
   color: #777;
   font-weight: 200;
   margin-top: -6px;
@@ -7,16 +7,64 @@
 
 .about-name {
   font-family: 'Roboto Condensed';
-  font-size: 48px;
+  font-size: 40px;
   font-weight: bold;
   color: #2C8FDB;
   border-top: 2px solid #888;
   margin-top: 10px;
-  margin-bottom: -15px;
+  white-space: nowrap;
 }
 
 .about-subtitle {
   font-size: 36px;
-  font-weight: 400;
+  font-weight: 200;
   color: #000;
+  margin-top: -10px;
 }
+
+.about-title {
+  font-family: 'Roboto Condensed';
+  font-size: 40px;
+  font-weight: bold;
+  color: #2C8FDB;
+  margin-top: 40px;
+}
+
+.contact-container {
+  margin: 100px 0;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+
+.contact-data {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  margin-top: 30px;
+}
+
+ .contact-data span {
+  color: #555;
+  font-weight: medium;
+ }
+
+.shadow-bordered {
+  position: relative;
+  border: 2px solid #2C8FDB;
+  background-color: #FFF;
+}
+
+  .shadow-bordered:after {
+    content: " ";
+    position: absolute;
+    z-index: -1;
+    top: 10px;
+    left: 10px;
+    right: -10px;
+    bottom: -10px;
+    border: 2px dashed #999;
+  }

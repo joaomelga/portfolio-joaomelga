@@ -6,10 +6,10 @@ import { FilterList, Close, ChevronRight } from '@material-ui/icons';
 
 import { NavMenu } from '../../components';
 import cuttedHeadImg from '../../assets/images/cutted-head.jpg';
-import projects from './projects.json';
+import works from './works.json';
 import './styles.css';
 
-const useProjects = () => {
+const useWorks = () => {
   const [filtersDialogOpened, setFiltersDialogOpened] = useState(false);
   const [filterIsActive, setFilterIsActive] = useState(false);
   const [selectedField, setSelectedField] = useState();
@@ -42,14 +42,12 @@ const useProjects = () => {
   };
 };
 
-export default function Projects() {
-  const { localStates, eventsHandlers } = useProjects();
+export default function Works() {
+  const { localStates, eventsHandlers } = useWorks();
 
   return (
-    <div className="projects-page-container">
-      <Container fixed>
-        <NavMenu />
-      </Container>
+    <div className="works-page-container">
+      <NavMenu />
 
       <Container fixed>
         <Grid
@@ -58,6 +56,7 @@ export default function Projects() {
           direction="row"
           justifyContent="space-between"
           alignItems="flex-start"
+          style={{ paddingTop: 60 }}
         >
           <Grid md="7" item>
             <Hidden smDown>
@@ -109,22 +108,7 @@ export default function Projects() {
                   <div className="filters-list">
                     <h3>Works</h3>
                     {
-                      projects.fields.work.map((field) => (
-                        <button
-                          type="button"
-                          className="filter-option"
-                          onClick={() => eventsHandlers.handleFilterSelection(field)}
-                        >
-                          <span>
-                            {field}
-                          </span>
-                        </button>
-                      ))
-                    }
-
-                    <h3>Fun</h3>
-                    {
-                      projects.fields.fun.map((field) => (
+                      works.fields.map((field) => (
                         <button
                           type="button"
                           className="filter-option"
@@ -147,27 +131,29 @@ export default function Projects() {
                   <Grid
                     container
                     spacing={4}
-                    className="projects-list-container"
+                    className="works-list-container"
                   >
                     {
-                      projects.data.filter((project) => project.fields?.includes(localStates.selectedField))
-                        .map((project) => (
-                          <Grid xs="12" container item alignItems="center">
-                            <Grid xs="4" sm="3" item>
-                              <div className="shadow-bordered project-card-img-container">
+                      works.data.filter((work) => work.fields?.includes(localStates.selectedField))
+                        .map((work) => (
+                          <Grid xs="12" container item alignItems="flex-start">
+                            <Grid xs="3" sm="3" item>
+                              <div className="shadow-bordered work-card-img-container">
                                 <img
                                   width="100%"
-                                  src={`${process.env.PUBLIC_URL}/assets/images/${project.img}`}
-                                  alt={project.title}
+                                  height="100%"
+                                  src={`${process.env.PUBLIC_URL}/assets/images/${work.img}`}
+                                  alt={work.title}
                                 />
                               </div>
                             </Grid>
 
-                            <Grid xs="8" sm="9" item>
-                              <div className="project-card-text">
-                                <h1>{project.title}</h1>
-                                <span>{project.date}</span>
-                                <p>{project.subtitle}</p>
+                            <Grid xs="9" sm="9" item>
+                              <div className="work-card-text">
+                                <h1>{work.title}</h1>
+                                <span>{work.date}</span>
+                                <span>{work.location}</span>
+                                <p>{work.subtitle}</p>
                               </div>
                             </Grid>
                           </Grid>
@@ -179,29 +165,10 @@ export default function Projects() {
                   <Grid
                     container
                     spacing={5}
-                    className="projects-list-container"
+                    className="works-list-container"
                   >
                     {
-                      projects.fields.work.map((field) => (
-                        <Grid
-                          xs="6"
-                          sm="4"
-                          md="4"
-                          container
-                          item
-                          onClick={() => eventsHandlers.handleFilterSelection(field)}
-                        >
-                          <div className="field-button shadow-bordered squared-box">
-                            <span>
-                              {field}
-                            </span>
-                          </div>
-                        </Grid>
-                      ))
-                    }
-
-                    {
-                      projects.fields.fun.map((field) => (
+                      works.fields.map((field) => (
                         <Grid
                           xs="6"
                           sm="4"

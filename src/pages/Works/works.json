@@ -1,19 +1,12 @@
 {
-  "fields": {
-    "work": [
-      "Electronics & Embedded Systems",
-      "Full-stack Web/App Development",
-      "Design Thinking & UX Design",
-      "Mechanics & Machining",
-      "Layout & Space planning",
-      "Electrical Installations",
-      "Teaching"
-    ],
-    "fun": [
-      "Vehicles Restoration",
-      "Woodwork & Furniture"
-    ]
-  },
+  "fields": [
+    "Full-stack Apps Development",
+    "Embedded Systems",
+    "Electrical Installations",
+    "UX & Design Thinking",
+    "Mechanics & Machining",
+    "Teaching"
+  ],
   "data": [
     {
       "title": "Aruá",
@@ -21,7 +14,8 @@
       "links": [],
       "img": "arua001.jpg",
       "date": "Mar - Jun 2021",
-      "fields": ["Electronics & Embedded Systems"]
+      "location": "Manaus, AM",
+      "fields": ["Embedded Systems"]
     },
     {
       "title": "Moisturemeter P001",
@@ -29,7 +23,8 @@
       "links": [],
       "img": "moisturemeter001.jpg",
       "date": "Jun - Dec 2018",
-      "fields": ["Electronics & Embedded Systems"]
+      "location": "Belo Horizonte, MG",
+      "fields": ["Embedded Systems"]
     },
     {
       "title": "Cutia",
@@ -37,7 +32,8 @@
       "links": [],
       "img": "cutia001.jpg",
       "date": "Jan - Dec 2016",
-      "fields": ["Electronics & Embedded Systems"]
+      "location": "Manaus, AM",
+      "fields": ["Embedded Systems"]
     },
     {
       "title": "SIMBA",
@@ -45,7 +41,8 @@
       "links": [],
       "img": "simba001.jpg",
       "date": "Mar 2018 - Jun 2019",
-      "fields": ["Electronics & Embedded Systems"]
+      "location": "Belo Horizonte, MG",
+      "fields": ["Embedded Systems"]
     },
     {
       "title": "DHT11 Api to STM32",
@@ -53,7 +50,8 @@
       "links": ["https://github.com/joaomelga/STM32Fxxx-DHT11-API"],
       "img": "dhtToSTM001.jpg",
       "date": "Feb - Mar 2021",
-      "fields": ["Electronics & Embedded Systems"]
+      "location": "Manaus, AM",
+      "fields": ["Embedded Systems"]
     },
     {
       "title": "STM32 Low-Power Modes",
@@ -61,7 +59,8 @@
       "links": ["https://github.com/joaomelga/STM32F103xx-LowPowerModes"],
       "img": "STM32LowPowerModes001.jpg",
       "date": "Mar - Apr 2021",
-      "fields": ["Electronics & Embedded Systems"]
+      "location": "Manaus, AM",
+      "fields": ["Embedded Systems"]
     },
     {
       "title": "Filling Machine 2.0",
@@ -69,7 +68,8 @@
       "links": [],
       "img": "fillingMachine001.jpg",
       "date": "Mar 2018 - Dec 2019",
-      "fields": ["Electronics & Embedded Systems"]
+      "location": "Belo Horizonte, MG",
+      "fields": ["Embedded Systems"]
     },
     {
       "title": "GoogleSheets Api to ESP8266",
@@ -77,7 +77,8 @@
       "links": [],
       "img": "sheetsESP001.jpg",
       "date": "Feb - Apr 2019",
-      "fields": ["Electronics & Embedded Systems"]
+      "location": "Belo Horizonte, MG",
+      "fields": ["Embedded Systems"]
     },
     {
       "title": "Locall Platform",
@@ -85,7 +86,8 @@
       "links": [],
       "img": "locall001.png",
       "date": "Mar 2020 - Now",
-      "fields": ["Full-stack Web/App Development"]
+      "location": "São José da Lapa, MG",
+      "fields": ["Full-stack Apps Development", "UX & Design Thinking"]
     },
     {
       "title": "Ansof Logistics 2.0",
@@ -93,15 +95,17 @@
       "links": [],
       "img": "ansofLogistics001.png",
       "date": "Feb - Oct 2019",
-      "fields": ["Full-stack Web/App Development"]
+      "location": "Belo Horizonte, MG",
+      "fields": ["Full-stack Apps Development"]
     },
     {
       "title": "MegaPool",
-      "subtitle": "A Domain-Driven Design oriented platform (front Web + back PHP) to calculate best delivering routes according to vehicles capability, clients availability and so on.",
-      "links": ["https://www.facebook.com/megapoolagro/"],
+      "subtitle": "A platform of services to farmers and an e-commerce of agricultural supplies",
+      "links": ["https://www.linkedin.com/company/megapoolagro/"],
       "img": "megapool001.jpg",
       "date": "Jun - Dec 2019",
-      "fields": ["Full-stack Web/App Development"]
+      "location": "Belo Horizonte, MG",
+      "fields": ["Full-stack Apps Development"]
     },
     {
       "title": "Smart M2M",
@@ -109,7 +113,8 @@
       "links": ["https://carmeltecnologia.com.br/"],
       "img": "smartM2M001.jpg",
       "date": "Jan - Jun 2017",
-      "fields": ["Full-stack Web/App Development"]
+      "location": "Barroso, MG",
+      "fields": ["Full-stack Apps Development"]
     },
     {
       "title": "GE EasyReceiving",
@@ -117,7 +122,8 @@
       "links": [],
       "img": "easyReceiving001.jpg",
       "date": "Ago - Dec 2018",
-      "fields": ["Full-stack Web/App Development", "Design Thinking & UX Design"]
+      "location": "Contagem, MG",
+      "fields": ["Full-stack Apps Development", "UX & Design Thinking"]
     },
     {
       "title": "Sicoob Connection",
@@ -125,78 +131,46 @@
       "links": [],
       "img": "sicoobConnection001.jpg",
       "date": "Nov 2018",
-      "fields": ["Design Thinking & UX Design"]
+      "location": "Belo Horizonte, MG",
+      "fields": ["UX & Design Thinking"]
     },
     {
       "title": "Reversing Key Restoration",
+      "subtitle": "I'm searching images and writing a good text to this project...",
       "img": "reverseKey001.jpg",
+      "date": "Oct 2020",
+      "location": "Rio Preto da Eva, AM",
       "fields": ["Electrical Installations"]
     },
     {
       "title": "PlayLixo",
+      "date": "Jun - Nov 2015",
+      "subtitle": "A pneumatic cartesian 3D arm with a claw, machined by me and my classmates, responsible to catch colored pieces passing in a belt and move them to the right role. It was a fun game.",
       "img": "playLixo001.jpg",
+      "location": "Manaus, AM",
       "fields": ["Mechanics & Machining"]
     },
     {
-      "title": "Toolrooom Restoration",
-      "img": "toolroom001.jpg",
-      "fields": ["Layout & Space planning"]
-    },
-    {
-      "title": "Juice Factory Layout Study",
-      "img": "juiceFactoryLayout001.jpg",
-      "fields": ["Layout & Space planning"]
-    },
-    {
       "title": "Scrum Training",
+      "date": "Sep 2018",
+      "subtitle": "I'm searching images and writing a good text to this project...",
       "img": "scrumTraining001.jpg",
+      "location": "Belo Horizonte, MG",
       "fields": ["Teaching"]
     },
     {
-      "title": "Bart, The White Beetle",
-      "img": "bart001.jpg",
-      "fields": ["Vehicles Restoration"]
-    },
-    {
-      "title": "Moped 1st",
-      "img": "moped001.jpg",
-      "fields": ["Vehicles Restoration"]
-    },
-    {
-      "title": "Car Driving Simulator V3",
-      "img": "simulator001.jpeg",
-      "fields": ["Electronics & Embedded Systems", "Mechanics & Machining"]
-    },
-    {
-      "title": "Tension Source from Scrap",
-      "fields": ["Electronics & Embedded Systems"]
+      "title": "Web Masters",
+      "date": "Feb - Jun 2018",
+      "subtitle": "I'm searching images and writing a good text to this project...",
+      "location": "Belo Horizonte, MG",
+      "fields": ["Teaching"]
     },
     {
       "title": "Automato (Garden Automation)",
-      "fields": ["Electronics & Embedded Systems"]
-    },
-    {
-      "title": "3D Printer",
-      "fields": ["Electronics & Embedded Systems", "Mechanics & Machining"]
-    },
-    {
-      "title": "CPE's Sofa",
-      "img": "cpeSofa001.jpg",
-      "fields": ["Woodwork & Furniture"]
-    },
-    {
-      "title": "Rebecka's Shelf",
-      "img": "rebeckasShelf001.jpg",
-      "fields": ["Woodwork & Furniture"]
-    },
-    {
-      "title": "Dad's Bed",
-      "fields": ["Woodwork & Furniture"]
-    },
-    {
-      "title": "Hurried Luster",
-      "img": "hurriedLuster001.jpg",
-      "fields": ["Woodwork & Furniture"]
+      "date": "Sep 2019",
+      "subtitle": "I'm searching images and writing a good text to this project...",
+      "location": "Belo Horizonte, MG",
+      "fields": ["Embedded Systems"]
     }
   ]
 }
