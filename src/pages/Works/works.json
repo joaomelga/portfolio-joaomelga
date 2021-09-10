@@ -11,7 +11,7 @@
     {
       "title": "STM32 Low-Power Modes",
       "subtitle": "A repository created to give an overview and an example application of the low-power modes of STM32F1 microcontroller family.",
-      "links": ["https://github.com/joaomelga/STM32F103xx-LowPowerModes"],
+      "link": "https://github.com/joaomelga/STM32F103xx-LowPowerModes",
       "img": "STM32LowPowerModes001.jpg",
       "date": "Mar - Apr 2021",
       "location": "Manaus, AM",
@@ -20,7 +20,7 @@
     {
       "title": "Aruá",
       "subtitle": "STM32 microcontolled system to monitor and control fish ponds water quality.",
-      "links": [],
+      "link": "https://github.com/joaomelga/stm32f103c8t6-aerators-controller",
       "img": "arua001.jpg",
       "date": "Mar - Jun 2021",
       "location": "Manaus, AM",
@@ -29,7 +29,7 @@
     {
       "title": "DHT11 Api to STM32",
       "subtitle": "A DHT11 API adaptable for STM32FXXX MCUs and a DEMO application developed under the stack CubeMX + SW4STM32 + HAL.",
-      "links": ["https://github.com/joaomelga/STM32Fxxx-DHT11-API"],
+      "link": "https://github.com/joaomelga/STM32Fxxx-DHT11-API",
       "img": "dhtToSTM001.jpg",
       "date": "Feb - Mar 2021",
       "location": "Manaus, AM",
@@ -38,7 +38,7 @@
     {
       "title": "GoogleSheets Api to ESP8266",
       "subtitle": "Controls an ESP8266 microcontroller to receive comma separated data via UART and send it to Google Sheets as a row with multiple columns.",
-      "links": [],
+      "link": "https://github.com/joaomelga/esp8266-serial-to-googlesheets",
       "img": "sheetsESP001.jpg",
       "date": "Feb - Apr 2019",
       "location": "Belo Horizonte, MG",
@@ -47,7 +47,7 @@
     {
       "title": "Moisturemeter P001",
       "subtitle": "Capacitive and low cost moisture meter microcontrolled by an ESP8266 built especially to monitor gardens.",
-      "links": [],
+      "link": null,
       "img": "moisturemeter001.jpg",
       "date": "Jun - Dec 2018",
       "location": "Belo Horizonte, MG",
@@ -56,7 +56,7 @@
     {
       "title": "Filling Machine 2.0",
       "subtitle": "A ESP8266 microcontrolled system responsible for increase the pulp packs per hour productivity by 300% and for drastically decrease the operators effort.",
-      "links": [],
+      "link": null,
       "img": "fillingMachine001.jpg",
       "date": "Mar 2018 - Dec 2019",
       "location": "Belo Horizonte, MG",
@@ -65,7 +65,7 @@
     {
       "title": "SIMBA",
       "subtitle": "A embedded system capable to supervise efficiency and quality in the juice production process and stablish connection between a balance and a filling machine.",
-      "links": [],
+      "link": null,
       "img": "simba001.jpg",
       "date": "Mar 2018 - Jun 2019",
       "location": "Belo Horizonte, MG",
@@ -74,7 +74,7 @@
     {
       "title": "Cutia",
       "subtitle": "Semi-autonomous ATMEGA32 controlled quadcopter made to recover the soil and reforest Amazon Rainforest devastated areas.",
-      "links": [],
+      "link": null,
       "img": "cutia001.jpg",
       "date": "Jan - Dec 2016",
       "location": "Manaus, AM",
@@ -83,7 +83,7 @@
     {
       "title": "My Personal Portfolio",
       "subtitle": "Developed with React and Material UI to expose a little about me, my work experiences and my hobbies.",
-      "links": [],
+      "link": "https://github.com/joaomelga/portfolio-joaomelga",
       "img": "portfolio001.jpg",
       "date": "Aug 2021",
       "location": "Manaus, AM",
@@ -92,7 +92,7 @@
     {
       "title": "Locall Platform",
       "subtitle": "The digital and non-profit platform to help small scale farmers, producers and service providers to promote consistent and endogenous local development by their own.",
-      "links": [],
+      "link": "https://locall.netlify.app/map",
       "img": "locall001.png",
       "date": "Mar 2020 - Now",
       "location": "São José da Lapa, MG",
@@ -101,7 +101,7 @@
     {
       "title": "Ansof Logistics 2.0",
       "subtitle": "A Domain-Driven Design oriented platform (front Web + back PHP) to calculate best delivering routes according to vehicles capability, clients availability and so on.",
-      "links": [],
+      "link": null,
       "img": "ansofLogistics001.png",
       "date": "Feb - Oct 2019",
       "location": "Belo Horizonte, MG",
@@ -110,7 +110,7 @@
     {
       "title": "MegaPool",
       "subtitle": "A platform of services to farmers and an e-commerce of agricultural supplies",
-      "links": ["https://www.linkedin.com/company/megapoolagro/"],
+      "link": "https://www.linkedin.com/company/megapoolagro/",
       "img": "megapool001.jpg",
       "date": "Jun - Dec 2019",
       "location": "Belo Horizonte, MG",
@@ -119,7 +119,7 @@
     {
       "title": "Smart M2M",
       "subtitle": "A product composed by a GSM/GPRS/3G datalogger and a web platform to display devices data in dashboards with charts, tables, gauges, alerts, etc.",
-      "links": ["https://carmeltecnologia.com.br/"],
+      "links": "https://carmeltecnologia.com.br/",
       "img": "smartM2M001.jpg",
       "date": "Jan - Jun 2017",
       "location": "Barroso, MG",
@@ -128,7 +128,7 @@
     {
       "title": "Sicoob Connection",
       "subtitle": "A solution to connect people and promote financial justice designed during a Design Sprint guided by Sicoob Credit Coop. and Raízen UX designers.",
-      "links": [],
+      "link": null,
       "img": "sicoobConnection001.jpg",
       "date": "Nov 2018",
       "location": "Belo Horizonte, MG",
@@ -137,7 +137,7 @@
     {
       "title": "GE EasyReceiving",
       "subtitle": "A solution to the locomotives pieces receiving process at GE Transportation, designed during two weeks of Design Sprint guided by General Electrics designers, engineers and agile experts.",
-      "links": [],
+      "link": null,
       "img": "easyReceiving001.jpg",
       "date": "Ago - Dec 2018",
       "location": "Contagem, MG",
@@ -170,6 +170,7 @@
     {
       "title": "Web Masters",
       "date": "Feb - Jun 2018",
+      "link": "https://github.com/joaomelga/webmasters-course-20181",
       "subtitle": "I'm searching images and writing a good text to this project...",
       "location": "Belo Horizonte, MG",
       "fields": ["Teaching"]

@@ -136,7 +136,14 @@ export default function Works() {
                     {
                       works.data.filter((work) => work.fields?.includes(localStates.selectedField))
                         .map((work) => (
-                          <Grid xs="12" container item alignItems="flex-start">
+                          <Grid
+                            xs="12"
+                            container
+                            item
+                            alignItems="flex-start"
+                            onClick={() => work.link && window.open(work.link, '_blank').focus()}
+                            style={{ cursor: 'pointer' }}
+                          >
                             <Grid xs="3" sm="3" item>
                               <div className="shadow-bordered work-card-img-container">
                                 <img

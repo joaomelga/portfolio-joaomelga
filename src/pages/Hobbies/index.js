@@ -136,7 +136,14 @@ export default function Hobbies() {
                     {
                       hobbies.data.filter((hobby) => hobby.fields?.includes(localStates.selectedField))
                         .map((hobby) => (
-                          <Grid xs="12" container item alignItems="flex-start">
+                          <Grid
+                            xs="12"
+                            container
+                            item
+                            alignItems="flex-start"
+                            onClick={() => hobby.link && window.open(hobby.link, '_blank').focus()}
+                            style={{ cursor: 'pointer' }}
+                          >
                             <Grid xs="4" sm="3" item>
                               <div className="shadow-bordered hobby-card-img-container">
                                 <img
